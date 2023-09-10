@@ -1,0 +1,15 @@
+digraph {
+	5 [label=5]
+	5 -> 3
+	3 [label=3]
+	3 -> 2
+	2 [label=2]
+	3 -> 4
+	4 [label=4]
+	5 -> 7
+	7 [label=7]
+	7 -> 6
+	6 [label=6]
+	7 -> 8
+	8 [label=8]
+}

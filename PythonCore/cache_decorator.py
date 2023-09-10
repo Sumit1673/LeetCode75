@@ -9,6 +9,8 @@ import time
 from functools import wraps
 #https://stackoverflow.com/questions/308999/what-does-functools-wraps-do
 
+# this decorator is implemented as a class that is whhy
+#   we need to use __call__ method
 
 class CacheDecorator:
     def __init__(self, original_func) -> None:
@@ -16,9 +18,10 @@ class CacheDecorator:
         self._cache_dict = dict()
         
     def __call__(self, *args, **kwargs):
+        
         if args in self._cache_dict:
-            print(self._cache_dict[args])
             return self._cache_dict[args]
+        
         result = self.org_func(*args)
         self._cache_dict[args] = result
         return result
