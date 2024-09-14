@@ -8,19 +8,19 @@ problem_id,problem
 19,Partition Labels (/problems/partition-labels), Done
 408,All Paths From Source to Target (/problems/all-paths-from-source-to-target)
 570,Find and Replace Pattern (/problems/find-and-replace-pattern), Done, get last occurence of each node. Loop all the chars till the current idx not equal to its last index
-383,Find K-Length Substrings With No Repeated Characters (/problems/find-k-length-substrings-with-no-repeated-characters)
+383,Find K-Length Substrings With No Repeated Characters (/problems/find-k-length-substrings-with-no-repeated-characters), Done, Slide Window; keep the loop running till the last char
 510,Maximum Level Sum of a Binary Tree (/problems/maximum-level-sum-of-a-binary-tree), Done
 475,Path In Zigzag Labelled Binary Tree (/problems/path-in-zigzag-labelled-binary-tree)
 424,Find Leaves of Binary Tree (/problems/find-leaves-of-binary-tree), Done, Collect all nodes level by level
 545,Distribute Coins in Binary Tree (/problems/distribute-coins-in-binary-tree)
 583,Customers Who Bought All Products (/problems/customers-who-bought-all-products)
 562,Complex Number Multiplication (/problems/complex-number-multiplication), Done, replace i with j and +- with - and use complex(n) for both numbers and extract real and imaginary coefficient
-522,Counting Bits (/problems/counting-bits)
-551,Flip Equivalent Binary Trees (/problems/flip-equivalent-binary-trees)
-396,Two Sum BSTs (/problems/two-sum-bsts)
+522,Counting Bits (/problems/counting-bits), Done
+551,Flip Equivalent Binary Trees (/problems/flip-equivalent-binary-trees), Done(Revise), check each node val while recursing a= (tree1.left tree1.left) or b = (tree1.left tree1.right)
+396,Two Sum BSTs (/problems/two-sum-bsts), Done(revise), collect all valus from both the trees and then apply two sum approach
 421,Web Crawler (/problems/web-crawler)
-399,Interval List Intersections (/problems/interval-list-intersections)
-507,Custom Sort String (/problems/custom-sort-string)
+399,Interval List Intersections (/problems/interval-list-intersections), Done, two pointers; max(l[0] l2[0]) and min(l[1] l2[1]) 
+507,Custom Sort String (/problems/custom-sort-string),Done,counter map S; loop order chars and inc based on the counter;add rest
 259,Find All Duplicates in an Array (/problems/find-all-duplicates-in-an-array)
 492,Construct Binary Tree from Preorder and Postorder Traversal (/problems/construct-binary-tree-from-preorder-and-postorder-traversal)
 449,Search in a Sorted Array of Unknown Size (/problems/search-in-a-sorted-array-of-unknown-size)
@@ -30,7 +30,7 @@ problem_id,problem
 368,Maximum Average Subtree (/problems/maximum-average-subtree)
 281,Queue Reconstruction by Height (/problems/queue-reconstruction-by-height)
 549,N-ary Tree Level Order Traversal (/problems/n-ary-tree-level-order-traversal)
-4,K Closest Points to Origin (/problems/k-closest-points-to-origin)
+4,K Closest Points to Origin (/problems/k-closest-points-to-origin),Done, use heap or just sorted based on the distance
 291,Daily Temperatures (/problems/daily-temperatures)
 256,Minimum Cost to Connect Sticks (/problems/minimum-cost-to-connect-sticks)
 94,Design Hit Counter (/problems/design-hit-counter)
@@ -38,7 +38,7 @@ problem_id,problem
 290,Binary Tree Inorder Traversal (/problems/binary-tree-inorder-traversal)
 406,Single Number III (/problems/single-number-iii)
 176,Permutations (/problems/permutations)
-249,Palindromic Substrings (/problems/palindromic-substrings)
+249,Palindromic Substrings (/problems/palindromic-substrings), Done, Good question--> Need Rivision
 553,Campus Bikes (/problems/campus-bikes)
 89,Generate Parentheses (/problems/generate-parentheses)
 508,Kill Process (/problems/kill-process)
@@ -69,7 +69,7 @@ problem_id,problem
 169,Number of Connected Components in an Undirected Graph (/problems/number-of-connected-components-in-an-undirected-graph)
 112,Number of Distinct Islands (/problems/number-of-distinct-islands)
 523,Binary Tree Preorder Traversal (/problems/binary-tree-preorder-traversal)
-398,Longest Repeating Substring (/problems/longest-repeating-substring)
+398,Longest Repeating Substring (/problems/longest-repeating-substring), Done, use hashmap and nested for loop i=0 to n & j i+1 to n
 411,Missing Element in Sorted Array (/problems/missing-element-in-sorted-array)
 581,Uncrossed Lines (/problems/uncrossed-lines)
 515,Campus Bikes II (/problems/campus-bikes-ii)
